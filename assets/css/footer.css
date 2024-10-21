@@ -1,0 +1,42 @@
+footer {
+    grid-area: ft;
+}
+
+#footerArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C0FFFF;
+    border-top: 2px solid black;
+}
+
+.footerBox {
+    width: 40%;
+    height: auto;
+    padding: 5px;
+    padding-left: 5%;
+}
+
+.rightBox {
+    text-align: right;
+    padding-right: 5%;
+}
+
+.socialImage {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .socialImage {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footerBox {
+        font-size: 22px;
+    }
+}

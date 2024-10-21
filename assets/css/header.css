@@ -1,0 +1,9 @@
+header {
+    grid-area: hd;
+    margin-bottom: 20px;
+}
+
+#headerSpace {
+    text-align: center;
+    padding: 5px;
+}

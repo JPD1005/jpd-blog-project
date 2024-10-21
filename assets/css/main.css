@@ -1,0 +1,46 @@
+@import url(navbar.css);
+@import url(content.css);
+@import url(header.css);
+@import url(footer.css);
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px auto auto 100px;
+    grid-template-areas: 
+    "nav"
+    "hd"
+    "ct"
+    "ft";
+    height: auto;
+    width: 100%;
+    gap: 5px;
+}
+h1, h2, h3, h4, p, a, figcaption {
+    font-family: Helvetica, Arial, sans-serif;
+}
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+.area {
+    border: 2px solid black;
+    background-color: #E0FAFC;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+.bold {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) {
+    .main {
+        gap: 10px;
+    }  
+}

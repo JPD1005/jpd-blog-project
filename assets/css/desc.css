@@ -1,0 +1,48 @@
+.avatar {
+    grid-area: avt;
+    text-align: center;
+}
+
+.description {
+    grid-area: abt;
+    padding: 5px;
+}
+
+.articleText {
+    font-size: 21px;
+    line-height: 32px;
+}
+
+#title {
+    font-size: 40px;
+}
+
+#goBackSpace {
+    text-align: left;
+    margin: 5px;
+}
+
+#goBack {
+    background-color: transparent;
+    border: 1px solid #05c3dd;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    padding: 6px 15px;
+    transition: 200ms ease-out;
+}
+
+#goBack:hover {
+    background-color: #05c3dd;
+    transition: 200ms ease-in;
+}
+
+#avatarImage {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#employment {
+    font-size: 16px;
+    font-style: italic;
+}

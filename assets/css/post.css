@@ -1,0 +1,65 @@
+@import url(desc.css);
+@import url(footer.css);
+
+.postMain {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4. auto);
+    grid-template-areas:
+    "hd hd hd hd"
+    "ct ct ct ct"
+    "avt abt abt abt"
+    "ft ft ft ft";
+    height: auto;
+    width: 100%;
+    gap:  5px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, p, a, blockquote {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.headerSpace {
+    text-align: center;
+    padding: 5px;
+}
+
+header {
+    grid-area: hd;
+}
+
+article {
+    grid-area: ct;
+    padding: 5px;
+    background-color: #E0FAFC;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .postMain {
+        width: 75%
+    }  
+}
+
+@media screen and (min-width: 1024px) {
+    .postMain {
+        width: 50% 
+    }  
+}

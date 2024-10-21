@@ -1,0 +1,70 @@
+section {
+    grid-area: ct;
+}
+
+.blogSpace {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #E0FAFC;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+.blogBox {
+    text-align: center;
+    width: 300px;
+    height: 420px;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: white;
+    text-overflow: ellipsis;
+    transition: all 400ms ease;
+}
+
+.blogBox:hover {
+    box-shadow: 2px 4px 10px rgb(30, 30, 30);
+    transform: scale(1.1, 1.1);
+    transition: all 400ms ease;
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blogImage {
+    margin-top: 5px;
+    width: 300px;
+    height: 150px;
+}
+
+figcaption {
+    font-variant: small-caps;
+    font-size: 14px;
+}
+
+.readMore {
+    background-color: transparent;
+    border: 1px solid #05c3dd;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    transition: 200ms ease-out;
+    font-size: 18px;
+}
+
+.readMore:hover {
+    background-color: #05c3dd;
+    transition: 200ms ease-in;
+}
+
+figure {
+    margin: auto;
+}
