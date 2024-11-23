@@ -6,7 +6,7 @@ This repository contains my first attempt at creating a personal website for a U
 
 To run the code, simply double-click the `index.html` file inside the main folder, and it should show a preview automatically inside your default browser.
 
-Or alternatively:
+### Or alternatively:
 
 * Right Click `index.html`
 * Select "Open With"
